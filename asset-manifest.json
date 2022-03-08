@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/word-square-library/static/css/main.073c9b0a.css",
+    "main.js": "/word-square-library/static/js/main.fa5e10aa.js",
+    "static/js/787.451b5d07.chunk.js": "/word-square-library/static/js/787.451b5d07.chunk.js",
+    "static/media/logo.svg": "/word-square-library/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/word-square-library/index.html",
+    "main.073c9b0a.css.map": "/word-square-library/static/css/main.073c9b0a.css.map",
+    "main.fa5e10aa.js.map": "/word-square-library/static/js/main.fa5e10aa.js.map",
+    "787.451b5d07.chunk.js.map": "/word-square-library/static/js/787.451b5d07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fa5e10aa.js"
+  ]
+}
