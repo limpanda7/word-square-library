@@ -1,0 +1,46 @@
+.App {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+
+    .Header {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+
+    .Content {
+        font-size: 12px;
+
+        table {
+            width: 100%;
+            margin: 0 auto;
+
+            tr {
+                border: 1px solid black;
+
+                th {
+                    border: 1px solid black;
+                    font-weight: bold;
+                    padding: 3px;
+                }
+
+                td {
+                    border: 1px solid black;
+                    padding: 3px;
+                    text-align: center;
+
+                    &.Title {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
