@@ -18,6 +18,12 @@
     .Content {
         font-size: 12px;
 
+        .Description {
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
         table {
             width: 100%;
             margin: 0 auto;
@@ -28,19 +34,30 @@
                 th {
                     border: 1px solid black;
                     font-weight: bold;
-                    padding: 3px;
+                    padding: 4px;
+                    line-height: 1.5;
                 }
 
                 td {
                     border: 1px solid black;
                     padding: 3px;
                     text-align: center;
+                    line-height: 1.5;
+
+                    &.Category {
+                        width: 15%;
+                    }
 
                     &.Title {
                         text-align: left;
+                        width: 70%;
                     }
                 }
             }
+        }
+
+        a {
+            text-decoration: none;
         }
     }
 }
