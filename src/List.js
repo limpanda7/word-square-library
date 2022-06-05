@@ -1,3 +1,6 @@
+/**
+ * 무신앙용(오픈예정자)
+ */
 const list1 = [
     {
         'category': '1분성경',
@@ -96,6 +99,9 @@ const list1 = [
     },
 ]
 
+/**
+ * 무신앙용(오픈)
+ */
 const list2 = [
     {
         'category': '유쾌한강사',
@@ -127,10 +133,177 @@ const list2 = [
         'title': '레벨테스트',
         'link': 'https://www.wordsquare.org/square-crossroads/level-test'
     },
+]
 
+/**
+ * 따기 후 단향용
+ */
+const list3 = [
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 01. 하나님에겐 숨겨 둔 큰 그림이 있다?',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5af0f21976e001389d8df'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 02-1. 평범한 큰아버지가 \'축복의 통로\'가 된 결정적 이유',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5af3021976e001389d8e0'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 02-2. 신앙이 미지근하다면 이 영상을 꼭 보세요! ',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5af4d21976e001389d8e1'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 03-1. 머리 좋기로 유명한 유태인, 조상님 잘 둔 덕이라고?',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5af6f21976e001389d8e2'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 03-2. 진짜다, 진짜가 나타났다! 한 번 잡으면 절대 놓지 않는 진짜 사나이',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5af9421976e001389d8e3'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 04-1. 벼락거지가 된 기분 알아? 하루아침에 노예가 된 요셉의 파란만장 성공기',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5afb821976e001389d8e4'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 04-2. 세상은 나를 몰라줘도 나는 나를 알지! 금수저도 부러워한 요셉의 자존감',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5afe621976e001389d8e5'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 05. "시대"도 모르면서 구원 받을 수 있다는 환상',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5b00621976e001389d8e6'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 06-1. 삶이 힘들다고 느껴질 때 꼭 찾아야 할 이것!',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5b02721976e001389d8e7'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 06-2. 아무도 몰랐던 하나님의 속마음',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5b13721976e001389d8e8'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 07-1. 무엇이든지 할 수 있게 되는 마법의 주문',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5b16921976e001389d8e9'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 07-2. 인간의 욕심은 끝이 없고 같은 실수를 반복한다',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c5b18221976e001389d8ea'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 08.냄새 나는 발가락 왕! 이 이름을 기억하세요~',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61c872e421976e001389d90e'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 09. 배은망덕이란 바로 이런 경우를 두고 나온 말이지!',
+        'link': 'https://www.wordsquare.org/video-yard/videos/62000a2121976e001389d9ac'
+    },
+    {
+        'category': '성경쨈과',
+        'title': 'Ep 10. 아니 의심하는 게 죄가 아니라고요?',
+        'link': 'https://www.wordsquare.org/video-yard/videos/6220c7d08f55f40014219924'
+    },
+]
+
+/**
+ * 신앙인용(오픈예정자)
+ */
+const list4 = [
+    {
+        'category': '',
+        'title': '선지사도테스트',
+        'link': 'https://wordsquare-public.s3.ap-northeast-2.amazonaws.com/assessment/disciples/index.html'
+    }
+]
+
+/**
+ * 신앙인용(휴신앙 및 믿음유약)
+ */
+const list5 = [
+    {
+        'category': '바이블라이프',
+        'title': 'Ep 01-01. 나는 내 믿음을 어떻게 증명할 수 있을까?',
+        'link': 'https://www.wordsquare.org/video-yard/videos/615c479ffbd04600149f71dd'
+    },
+    {
+        'category': '바이블라이프',
+        'title': 'Ep 01-02. 죽음도 초월한 제자들의 신앙. 오늘날 나의 신앙은 어떠해야 할까?',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61e1861921976e001389d968'
+    },
+    {
+        'category': '바이블라이프',
+        'title': 'Ep 02. 죽으면 다 끝이라고요? 천만의 말씀! 영혼은 죽지 않지~',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61eed2b621976e001389d988'
+    },
+    {
+        'category': '바이블라이프',
+        'title': 'Ep 03. 당신은 아직도 당신 자신을 몰라요. 종교 없이는 계속 모를 걸!',
+        'link': 'https://www.wordsquare.org/video-yard/videos/62012c4621976e001389d9ae'
+    },
+    {
+        'category': '바이블라이프',
+        'title': 'Ep 04. 아무리 문명이 발전해도 종교는 사라질 수 없어요.',
+        'link': 'https://www.wordsquare.org/video-yard/videos/6203b9b321976e001389d9c1'
+    },
+    {
+        'category': '바이블라이프',
+        'title': 'Ep 05. 죽음 이후에는 무엇이 나를 지켜주지?',
+        'link': 'https://www.wordsquare.org/video-yard/videos/621b96b08f55f400142198f4'
+    },
+    {
+        'category': '바이블라이프',
+        'title': 'Ep 06. 성경이 진리인 이유? 5분만에 증명합니다.',
+        'link': 'https://www.wordsquare.org/video-yard/videos/6220c6ec8f55f40014219923'
+    },
+    {
+        'category': '성경읽어주는남자',
+        'title': 'Ep 01. 아브라함이 \'믿음의 조상\'이 될 수 있었던 진짜 이유',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61570b8dfbd04600149f71c0'
+    },
+]
+
+/**
+ * 신앙인용(열심형)
+ */
+const list6 = [
+    {
+        'category': '갓 나온 역사',
+        'title': 'Ep 01. 노아 아빠조차 싫어했던 노아의 극한직업!',
+        'link': 'https://www.wordsquare.org/video-yard/videos/6157109dfbd04600149f71c2'
+    },
+    {
+        'category': '갓 나온 역사',
+        'title': 'Ep 02. 아무리 하나님이라고 해도 이건 못 참지!!',
+        'link': 'https://www.wordsquare.org/video-yard/videos/61794442e3f64e001584f4b3'
+    },
+    {
+        'category': '갓 나온 역사',
+        'title': 'Ep 03. 나라를 금으로 도배한 플렉스의 끝판왕이 있다고?!',
+        'link': 'https://www.wordsquare.org/video-yard/videos/621e46e88f55f40014219916'
+    },
+    {
+        'category': '추천',
+        'title': '레벨테스트',
+        'link': 'https://www.wordsquare.org/square-crossroads/level-test'
+    },
 ]
 
 export {
     list1,
     list2,
+    list3,
+    list4,
+    list5,
+    list6
 }

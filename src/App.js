@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.scss';
-import {list1, list2} from './List.js';
+import * as List from './List.js';
 
 function App() {
 
@@ -10,10 +10,22 @@ function App() {
     useEffect(() => {
         switch (type) {
             case '1':
-                setList(list1);
+                setList(List.list1);
                 return;
             case '2':
-                setList(list2);
+                setList(List.list2);
+                return;
+            case '3':
+                setList(List.list3);
+                return;
+            case '4':
+                setList(List.list4);
+                return;
+            case '5':
+                setList(List.list5);
+                return;
+            case '6':
+                setList(List.list6);
                 return;
             default:
                 return;
@@ -29,6 +41,10 @@ function App() {
                     <option value='0'>선택하세요</option>
                     <option value='1'>무신앙용(오픈예정자)</option>
                     <option value='2'>무신앙용(오픈)</option>
+                    <option value='3'>따기 후 단향용</option>
+                    <option value='4'>신앙인용(오픈예정자)</option>
+                    <option value='5'>신앙인용(휴신앙 및 믿음유약)</option>
+                    <option value='6'>신앙인용(열심형)</option>
                 </select>
             </div>
 
@@ -55,14 +71,40 @@ function App() {
                 {
                     type === '1' &&
                     <div className='Description'>
-                        🖤무신앙용(오픈예정자 or 오픈했으나 관심없는 유형):  >>1분성경 (※주의: 영상안에 S가 언급되진 않으나 링크를 자세히 들어가면 오픈될 수 있습니다. 따라서 오픈해도 상관없는 지인에게 보내는 것을 권장합니다. )
+                        🖤무신앙용(오픈예정자 or 오픈했으나 관심없는 유형): 1분성경 (※주의: 영상안에 S가 언급되진 않으나 링크를 자세히 들어가면 오픈될 수 있습니다. 따라서 오픈해도 상관없는 지인에게 보내는 것을 권장합니다. )
                     </div>
                 }
                 {
                     type === '2' &&
                     <div className='Description'>
-                        🤍무신앙용(오픈): 유쾌한 강사/신서의역사/바이블프리즘<br/>
+                        🤍무신앙용(오픈): 유쾌한 강사 / 신서의역사 / 바이블프리즘<br/>
                         ※ 영상끝에 튜터링 광고가 포함되어 있습니다
+                    </div>
+                }
+                {
+                    type === '3' &&
+                    <div className='Description'>
+                        🍎따기 후 단향용: 성경쨈과<br/>
+                        ※영상끝에 던져주는 질문을 통해 밭갈이 후 반응을 확인할 수 있습니다
+                    </div>
+                }
+                {
+                    type === '4' &&
+                    <div className='Description'>
+                        ❤️신앙인용(오픈예정자): 선지사도 테스트<br/>
+                        ※바벨에 다니고 있을경우가 많으므로 영상보다는 테스트를 권장합니다.
+                    </div>
+                }
+                {
+                    type === '5' &&
+                    <div className='Description'>
+                        🧡신앙인용(휴신앙 및 믿음유약): 바이블라이프 / 성경읽어주는남자
+                    </div>
+                }
+                {
+                    type === '6' &&
+                    <div className='Description'>
+                        💛신앙인용(열심형): 갓 나온 역사
                     </div>
                 }
 
